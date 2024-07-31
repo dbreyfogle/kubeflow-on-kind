@@ -2,9 +2,9 @@
 
 KIND_CLUSTER_NAME="kubeflow"
 KIND_CLUSTER_CONFIG_PATH="cluster-config.yaml"
-KIND_IMAGE="kindest/node:v1.27.11@sha256:681253009e68069b8e01aad36a1e0fa8cf18bb0ab3e5c4069b2e65cafdd70843"
-NVIDIA_DEVICE_PLUGIN_VERSION="v0.15.0"
-KUBEFLOW_MANIFESTS_VERSION="v1.8.1"
+KIND_IMAGE="kindest/node:v1.30.0@sha256:047357ac0cfea04663786a612ba1eaba9702bef25227a794b52890dd8bcd692e"
+NVIDIA_DEVICE_PLUGIN_VERSION="v0.16.1"
+KUBEFLOW_MANIFESTS_VERSION="v1.9.0"
 
 # Set nvidia runtime as default and enable injecting GPUs with volume mounts
 sudo nvidia-ctk runtime configure --runtime=docker --set-as-default --cdi.enabled
